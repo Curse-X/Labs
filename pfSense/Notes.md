@@ -15,16 +15,16 @@
 ### Add a User:
 - System --> User manager --> Add
 	- [ ] This user cannot login
-	- Username:
-	- Password:
-	- Full name:
-	- Group mambership: admins (To add admin user)
+	+ Username:
+	+ Password:
+	+ Full name:
+	+ Group mambership: admins (To add admin user)
 
 ### Disable and Block IPv6:
 - Block
 	- System --> Advanced --> Networking
 		- [ ] Allow IPv6
-		- Save
+		+ Save
 - Disable DHCP on WAN
 	- Interfaces --> WAN --> General Configuration
 		- IPv6 Configuration Type: None
@@ -36,7 +36,7 @@
 - Disable DHCPv6 Server
 	- Services --> DHCPv6 Server & RA --> LAN --> DHCPv6 Server --> DHCPv6 Options
 		- [ ] DHCPv6 Server
-		- Save
+		+ Save
 - Disable DHCPv6 Rules
 	- Firewall --> Rules --> LAN
 		- Note: Disable all IPv6 rules (By clicking "Disable" Button)
@@ -54,11 +54,11 @@
 - Change Theme
 	- System --> General Setup --> WebConfigurator
 		- Theme:
-			pfSense
-			pfSense-dark
-			pfSense-dark-BETA
-			pfSense-BETA
-			Compact-RED
+			- pfSense
+			- pfSense-dark
+			- pfSense-dark-BETA
+			- pfSense-BETA
+			- Compact-RED
 
 ### Firewall Considerations:
 - Rules and Rulesets
