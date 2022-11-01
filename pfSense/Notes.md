@@ -77,14 +77,14 @@
 |Good for WAN interface|Good for LAN interface|
 #### Ingerss and Egress:
 ```
-      LAN                                     WAN
-    Ingress    .------------------------.    Egress
+      LAN       ________________________      WAN
+    Egress     |                        |    Egress
  ------------> |                        | ------------>
                |                        |
                |        Firewall        |
                |                        |
  <------------ |                        | <------------
-    Egress     '------------------------'    Ingress
+    Ingress    |________________________|    Ingress
 ```
 #### Whitelisting and Blacklisting
 - Blacklisting
