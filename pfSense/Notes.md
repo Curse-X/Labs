@@ -94,3 +94,8 @@
 		- but other 65534 ports not blocked
 		- Blocking each unwanted ports is difficult
 - Whitelisting:
+	- Permitting good traffic
+	- Example:
+		- Permit HTTP, HTTPS, SSH, DNS, NTP outbound
+		- block everything else outbound (Block all the other ports)
+### Floating Rules:
